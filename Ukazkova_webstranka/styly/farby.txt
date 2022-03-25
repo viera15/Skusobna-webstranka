@@ -1,0 +1,23 @@
+tmavá zelená        #1AAD3A     26,173,58,68
+svetlá zelená       #59FF7D     89,255,125,100
+stredná zelená      #3FFA67     63,250,103,98
+svetlučká zelená    #75FF93     117,255,147,100
+
+vínová              #AD091C     173,9,28,68
+tmavá ružová        #FA3E54     250,6284,98
+svetlá ružová       #EB8F99     235,143,153,92
+
+ODKAZ - background tmavá zelená
+nepoužitý:          #59FF7D     89,255,125,100
+hover+active:       #3FFA67     63,250,103,98
+link+visited:       #EB8F99     235,143,153,92
+
+ODKAZ - background biela
+nepoužitý:          #1AAD3A     26,173,58,68 
+hover+active:       #59FF7D     89,255,125,100
+link+visited:       #EB8F99     235,143,153,92
+
+ODKAZ - background obrázok
+nepoužitý:
+hover+active:
+link+visited:

@@ -1,0 +1,172 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* hlavička */
+header {
+background: rgba(26.173,58,0.8);
+}
+
+/* moje foto */
+.moja-foto img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #59FF7D;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/* hlavné meno */
+.hlavne-meno h1 {
+    font-size: 90px;
+    color: #59FF7D;
+    border: 2px solid pink;
+    width: 800px;
+    top: -50px;
+    bottom: -10px;
+    position: absolute;
+    left: 380px;
+    height: 140px;
+    padding-top: 15px;
+}
+
+/* vyhľadávanie a prihlasovanie */
+.vyhladavanie-prihlasovanie ul {
+display: block;
+    float: right;
+    border: 2px solid pink;
+    top: -5px;
+    bottom: -10px;
+    position: absolute;
+    left: 1320px;
+    height: 150px;
+    padding-top: 6px;
+    padding-right: 5px;
+}
+
+.vyhladavanie-prihlasovanie ul li {
+    display: inline-block;
+    }
+
+    .vyhladavanie-prihlasovanie ul li a {
+        color: #59FF7D;
+        font-size: 12px;
+        text-decoration: none;
+    }  
+
+        .vyhladavanie-prihlasovanie ul li a:hover,
+        .vyhladavanie-prihlasovanie ul li a:active { 
+            transition: border-bottom 0.5s;
+            border-bottom: 2px solid #3FFA67;
+        }
+
+        .vyhladavanie-prihlasovanie ul li a:link,
+        .vyhladavanie-prihlasovanie ul li a:visited { 
+            transition: border-bottom 0.5s;
+            border-bottom: 2px solid #EB8F99;
+            color: #EB8F99;
+        }
+
+
+
+
+/* hlavné menu */
+
+nav ul {
+    width: 1020px;
+    margin: 0px auto;
+    }
+nav ul li {
+    width: 150px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 28px;
+    margin-right: 12px;
+    }
+
+nav ul li a {
+    color: #59FF7D;
+    text-decoration: none;
+
+    }
+nav ul li a:hover {
+    border-bottom: 2px solid #FA3E54;
+    }
+
+.menu-ciara {
+color:#EB8F99;
+
+}
+
+ /* Menu Telefonovanie */   
+
+ .menu-telefonovanie nav ul {
+    width: 1020px;
+    margin: 0px auto;
+    background: #75FF93;
+    }
+    .menu-telefonovanie nav ul li {
+    width: 150px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    }
+
+    .menu-telefonovanie nav ul li a {
+    color:#FA3E54;
+    text-decoration: none;
+    }
+    .menu-telefonovanie nav ul li a:hover {
+    border-bottom: 2px solid #3FFA67;
+    }
+
+
+
+/* hlavná časť */
+
+h1 {
+color: red;
+text-align: center;
+}
+
+
+
+.popisky-form {
+    font-size: 15px;
+    font-style:italic;
+}
+
+.main-odsek {
+    width: 1020px;
+    margin: 0px auto;
+    text-overflow: ellipsis;
+    overflow:auto;
+    text-align:justify;
+}
+
+
+
+/* pätička */
+
+footer p {
+    background: green;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-left: 15px
+}
+
+/* ukončenie float*/
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
